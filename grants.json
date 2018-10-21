@@ -1,0 +1,37 @@
+[
+  lowIncomeBenefit : {
+    minAge : 19,
+    maxAge : 1000,
+    canadianResidency : true,
+    maxIncome : 43000,
+    minChildren : 1
+    maritalStatusNeeded : false,
+    minBenefitAmount : 65
+  },
+  childBenefit : {
+    minAge : 19,
+    maxAge : 1000,
+    canadianResidency : true,
+    maxIncome : 41000,
+    minChildren : 1,
+    maritalStatusNeeded : false,
+    additionalDocuments : true,
+    minBenefitAmount : 456.75
+  },
+  canadaEducationSavingsGrant : {
+    minAge : 19,
+    maxAge : 1000,
+    canadianResidency : true,
+    maxIncome : 45916,
+    minChildren : 1,
+    maritalStatusNeeded : false,
+    additionalDocuments : true,
+    minBenefitAmount : 45,916
+  },
+  rentAssistantGrant : {
+    maritalStatusNeeded : true,
+    maxIncome : 35000,
+    minAge : 19
+    maxAge: 65
+  }
+]
